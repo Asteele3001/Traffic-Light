@@ -8,6 +8,9 @@ public class Main {
         The following is used to make strings that will be color coded. This is done by adding an ANSI code for
         the desired color before the string, then the ANSI reset code after the string (you will notice
         all of the strings end the same way). Storing them in variables just makes the rest of the code cleaner.
+
+        I found all of the ANSI codes here:
+        https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
          */
         String red = "\u001B[31m" + "red" + "\u001B[0m";
         String yellow = "\u001B[33m" + "yellow" + "\u001B[0m";
